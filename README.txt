@@ -1,4 +1,9 @@
 
+Deployed link
+=============
+https://aboutme-sherinsam.netlify.com/
+
+
 This web page was submitted as a winning entry for Coder Academy's Women in Tech scholarship for Melbourne cohort August 2018 which called for the theme 'My Life as a Coder'.
 
 The following was the the requirements of the scholarship application:
