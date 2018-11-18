@@ -1,0 +1,240 @@
+/*-----------------------------------------*/
+/* BASIC SETUP */
+/*-----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility; 
+}
+
+/*-----------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*-----------------------------------------*/
+
+.row {                                   
+    max-width: 1140px;
+    margin: 0 auto;                      
+}
+
+section {
+    padding: 40px 0;           
+}
+
+/*-------HEADINGS-------*/
+
+h1,
+h2,
+h3 {                                   
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;                     
+    word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    font-weight:300;
+}
+
+/*-----------------------------------------*/
+/* HEADER SECTION */
+/*-----------------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover.jpeg); /* to give the dark overlay over bg pic*/
+    height: 100vh;                      
+    background-size: cover;             
+    background-position: center;
+     background-attachment: fixed;
+}
+
+.hero-text-box {
+    position: absolute;                 
+    width: 1140px;
+    top: 50%;                            
+    left: 50%;                           
+    transform: translate(-50%, -50%);
+}
+
+
+/*-----------------------------------------*/
+/* NAVIGATION  */
+/*-----------------------------------------*/
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+
+.main-nav li {
+   position:relative;
+    display: inline-block;   
+    margin-left: 40px; 
+    color: #fff;
+    font-size: 90%;
+    text-transform: uppercase;
+    border-bottom: transparent solid 2px;
+    transition: border-bottom 0.2s;
+    padding: 8px 0px;
+}
+
+.main-nav li:hover {
+     border-bottom: #e67e22 solid 2px;
+     cursor: pointer;
+}
+
+.main-nav li .tooltip-text {
+    visibility: hidden;
+    background-color:#fff;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+    padding:14px 20px;
+    margin-top:20px; 
+    margin-left:-160px;
+    width:200px; 
+    line-height:16px;
+    text-transform:lowercase;
+    border-radius:30px; 
+    border:4px solid #e67e22; 
+    box-shadow: 0px 0px 8px 4px #666;
+    line-height:20px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
+.main-nav li:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+.main-nav li .tooltip-text::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent #e67e22 transparent;
+}
+
+
+.nav-icon {
+    margin-top:2px;
+}
+
+
+/*-----------------------------------------*/
+/* PROFILE PICTURE */
+/*-----------------------------------------*/
+
+.mypic {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    border: 1px solid grey;
+ /*   border-radius: 40%;*/
+    position:relative;
+    left:50%;
+    transform: translate(-60%, -20%);
+}
+
+
+/*-----------------------------------------*/
+/* MAIN DESCRIPTION */
+/*-----------------------------------------*/
+
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    word-spacing: 3px;
+    text-align:justify;
+}
+
+/*-----------------------------------------*/
+/* DESCRIPTIONS */
+/*-----------------------------------------*/
+
+
+.desc {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.desc-icon {
+    margin-bottom:5px;
+}
+
+.desc-pic {
+    width: 90%;
+    height: 200px;
+    margin-bottom:10px;
+
+}
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+    margin-top:50px;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 50px;
+}
+
