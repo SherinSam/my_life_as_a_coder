@@ -10,17 +10,12 @@ The following was the the requirements of the scholarship application:
 
 You are required to submit a themed portfolio of creative work that showcases your hobbies and interests, along with a brief written submission explaining why you aspire to become a coder. You may use any media of choice for your themed portfolio submission (e.g. an illustration, short film, animation, storyboard, comic book, app, photography, creative writing, etc). The theme for your portfolio submission will be "My life as a Coder".
 
-========================================================================================================================================================================
+
+==============================================================================================================
 
 
-Hello!
 
-Thank you for this marvelous opportunity for women who aspire to make a mark in the tech world. 
-
-As part of the pre-course work provided by Coder Academy and an HTML/CSS Udemy online course that I enrolled in, I learned a little bit of HTML and CSS in the past month. Using that knowledge, I created a basic webpage as my portfolio for Women in Tech scholarship.
-
-
-***The portfolio is based on the following instructions found in Terms and Conditions.:
+***The portfolio is based on the following instructions:
 Submit a themed portfolio of creative work that showcases your hobbies and interests, along with a brief written submission explaining why you aspire to become a coder. 
 
 ***I found the HTML file 'index.html' to be working fine with Firefox and Chrome.
@@ -30,5 +25,3 @@ Submit a themed portfolio of creative work that showcases your hobbies and inter
 ***I have also included a PDF version of the web-content in the same folder, in case the webpage did not work as expected.
 
 
-Fingers crossed. Thank you!
-Sherin
